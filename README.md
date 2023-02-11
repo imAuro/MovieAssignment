@@ -18,12 +18,14 @@ Authorization Middleware
 
 
 Things to implement later: 
-Exception handler
-Logger
-Role based authnetication
+
+	Exception handler
+	Logger
+	Role based authnetication
 
 
 AdminController:
+
 	GetAllDetails()
 	GetMovieDetailsByID(string id)
 	GetMovieDetailsByDate(DateTime date)
@@ -43,9 +45,11 @@ Admin Service()
 	DeleteMovieDetailsById(string id)
 
 IMDBService()
+
 	FetchDetailsFromOMDB(string movieName)
 	SaveData()
 
-The interfaces are as follows,
-IMDBSerivce: iIMDBService : iSourceService
-AdminService: iAdminService
+The interfaces are as follows:
+
+	IMDBSerivce: iIMDBService : iSourceService
+	AdminService: iAdminService
