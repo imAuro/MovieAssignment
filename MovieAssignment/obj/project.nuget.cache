@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4tB4RLIwSuUUZ079wQkJVg8nyNg9M5Uh9KUs2OH3rYqWydWT2VQagaII4TvsHWdsp00Dbekn1nJPSnxGcKGNlQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\amohapatra.CTC\\Downloads\\MovieAssignment\\MovieAssignment\\MovieAssignment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amohapatra.CTC\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
