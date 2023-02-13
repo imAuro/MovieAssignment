@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace MovieAssignment.Controllers
 {
+    [ApiController]
+    [Route("[controller]/[action]")]
     public class MovieController : ControllerBase
     {
 

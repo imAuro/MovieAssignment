@@ -7,7 +7,7 @@ using MovieAssignment.Services;
 namespace MovieAssignment.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]/[action]")]
 
     public class AdminController : ControllerBase
     {
@@ -20,26 +20,18 @@ namespace MovieAssignment.Controllers
 
 
         [HttpGet]
-        [Route("Test")]
         [AllowAnonymous]
         public IActionResult Test()
         {
-            MovieDetails details = new MovieDetails() { ImdbID = "1" };
-            var result = _adminService.GetAllDetails();
-
-
-            return Ok(result);
-
+           
+            return Ok("API is working");
         }
 
         [HttpGet]
-        [Route("GetAllDetails")]
-        
         public IActionResult GetAllDetails()
         {
             var rng = new Random();
             var result = _adminService.GetAllDetails();
-
 
             return Ok(result);
         }
