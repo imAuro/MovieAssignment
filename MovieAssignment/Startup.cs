@@ -20,9 +20,9 @@ namespace MovieAssignment
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddHttpClient<IMovieService, OMDBMovieService>();
             services.AddScoped<IAdminService, AdminService>();
-            services.AddScoped<IMovieService, OMDBMovieService>();
-            
+ 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
